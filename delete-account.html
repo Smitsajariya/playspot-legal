@@ -1,0 +1,69 @@
+<title>Delete PlaySport Account</title>
+<style>
+  :root{
+    --bg:#faf9f7; --surface:#ffffff; --ink:#1c1a17; --ink-soft:#5b564d;
+    --accent:#c8631f; --border:#e7e2da; --code-bg:#f1ede4;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#15130f; --surface:#1d1b16; --ink:#f2efe9; --ink-soft:#b3ac9e;
+      --accent:#e8934f; --border:#332e25; --code-bg:#24211b; color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#15130f; --surface:#1d1b16; --ink:#f2efe9; --ink-soft:#b3ac9e;
+    --accent:#e8934f; --border:#332e25; --code-bg:#24211b; color-scheme: dark;
+  }
+  *{box-sizing:border-box}
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family: 'Source Serif 4', Georgia, serif;
+    padding-block: 48px; padding-left:16px; padding-right:16px; line-height:1.65;
+  }
+  .wrap{max-width:680px; margin:0 auto;}
+  .eyebrow{
+    font-family:'Inter', system-ui, sans-serif; font-size:12px; letter-spacing:.12em;
+    text-transform:uppercase; color:var(--accent); font-weight:600; margin:0 0 10px;
+  }
+  h1{font-size:clamp(26px,5vw,36px); line-height:1.1; margin:0 0 24px; font-weight:700;}
+  h2{font-family:'Inter', system-ui, sans-serif; font-size:19px; font-weight:700; margin:32px 0 12px;}
+  p{margin:0 0 14px; max-width:65ch;}
+  ol,ul{margin:0 0 14px; padding-left:22px;}
+  li{margin-bottom:10px; max-width:60ch;}
+  strong{font-weight:700;}
+  .card{
+    background:var(--surface); border:1px solid var(--border); border-radius:10px;
+    padding:20px 22px; margin:28px 0; font-family:'Inter', system-ui, sans-serif;
+  }
+  .card a{color:var(--accent); text-decoration:none; border-bottom:1px solid currentColor;}
+  table{border-collapse:collapse; width:100%; font-family:'Inter', system-ui, sans-serif; font-size:14px;}
+  td{padding:10px 12px; border-bottom:1px solid var(--border); vertical-align:top;}
+  td:first-child{font-weight:600; white-space:nowrap; width:38%;}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;0,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<div class="wrap">
+  <p class="eyebrow">Account Deletion</p>
+  <h1>Delete your PlaySport account</h1>
+
+  <p>You can request deletion of your PlaySport: Sports &amp; Social account and its associated data at any time.</p>
+
+  <h2>How to request deletion</h2>
+  <ol>
+    <li>Send an email to <strong>playspotservices@gmail.com</strong> from the email address linked to your account (the one you used with Google Sign-In).</li>
+    <li>Use the subject line: <strong>"Delete my PlaySport account"</strong>.</li>
+    <li>We will confirm and process your request, typically within 7 days.</li>
+  </ol>
+
+  <h2>What gets deleted</h2>
+  <table>
+    <tr><td>Deleted</td><td>Profile info (name, photo, bio), posts, photos, hosted games/events, chat messages, location history</td></tr>
+    <tr><td>Retained (if legally required)</td><td>Minimal records we are required to keep for fraud prevention or legal compliance, kept only as long as the law requires</td></tr>
+    <tr><td>Timeframe</td><td>Data is deleted within 30 days of a confirmed request</td></tr>
+  </table>
+
+  <div class="card">
+    <p style="margin:0">Questions about this process can also be sent to <a href="https://mail.google.com/mail/?view=cm&fs=1&to=playspotservices@gmail.com" target="_blank" rel="noopener">playspotservices@gmail.com</a>.</p>
+  </div>
+</div>
